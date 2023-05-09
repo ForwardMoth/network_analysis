@@ -1,5 +1,7 @@
 # Анализ соц. сетей
 
+Проект созданный [dikiydinozavrik](https://github.com/dikiydinozavrik) и [ForwardMoth](https://github.com/ForwardMoth)
+
 ## [Лабораторная работа 1 "Сбор данных и анализ групп пользователей социальной сети ВКонтакте"](https://github.com/ForwardMoth/network_analysis/blob/main/lab1/lab1.ipynb)
 
 - Выбраны 2 сообщества в социальной сети ВКонтакте
