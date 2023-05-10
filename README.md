@@ -39,7 +39,24 @@
 - С помощью библиотеки TextBlob была произведена оценка настроения (Neutral, Negative, Positive)
 - Рассчитана и визуализирована доля твитов, относящихся к классам Neutral, Negative, Positive
 
-## Лабораторная работа 4  (В процессе разработки)
+## [Лабораторная работа 4](https://github.com/ForwardMoth/network_analysis)  
+
+### [Часть 1. "Topic Modeling"](https://github.com/ForwardMoth/network_analysis/tree/main/lab4/Topic%20modeling) 
+
+В качестве [исходных данных](https://www.kaggle.com/datasets/gpreda/covid19-tweets) использованы данные, которые содержат тексты постов про covid 19.
+
+- Предобработка данных (Удаление нижнего регистра, Удаление стоп-слов и пунктуации, Токенизация, Лемматизация)
+- Создание словаря слов и корпус частот встречаемости с помощью библиотеки [gensim](https://www.tutorialspoint.com/gensim/index.htm)
+- Построение и обучение модели LDA
+- Визуализация результатов
+
+### [Часть 2. "Генерация текста. GPT-2"](https://github.com/ForwardMoth/network_analysis/tree/main/lab4/GPT2%20text%20generation)
+
+В качестве исходных данных используется датасет из первой части. 
+
+- Создание случайной подвыборки из 5000 объектов 
+- Использование предобученной модели GPT-2 и дообучение данных
+- Примеры сгенерированных постов, которые начинаются с "covid" и "covid19" 
 
 ## [Лабораторная работа 5 "Построение моделей сообществ"](https://github.com/ForwardMoth/network_analysis/blob/main/lab5/lab5.ipynb)
 
